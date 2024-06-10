@@ -1,0 +1,3 @@
+Simple ping sweeper that asks for ip address or ip block followed by asking for the name of the output file with live host IPs that can be usd for further enumeration like NMAP scan.
+
+If no filename is provided then default filename is "live_hosts_[IP or IP BLOCK].txt" which has the IP addresses only, so as to be used directly as an iput file for other tools.
