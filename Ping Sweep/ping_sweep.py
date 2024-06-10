@@ -35,7 +35,7 @@ def ping_sweep(ip_block, output_file=None):
     # Print summary
     num_live_hosts = len(live_hosts)
     print(f"\nTotal number of live hosts: \033[95m{num_live_hosts}\033[0m")
-    print(f"Live hosts saved to \033[95m{output_file}\033[0m")
+    print(f"Live hosts saved to: \033[95m{output_file}\033[0m")
 
 if __name__ == "__main__":
     ip_block = input("Enter the IP or IP block (e.g., 192.168.1.0/24): ")
