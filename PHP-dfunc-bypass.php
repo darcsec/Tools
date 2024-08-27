@@ -5,7 +5,7 @@ $dangerous_functions = array(
 );
 
 foreach($dangerous_functions as $f) {
-  if (function_exists($f) {
+  if (function_exists($f)) {
       echo $f . " exists<br>\n";
   }
 }
