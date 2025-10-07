@@ -1,4 +1,4 @@
-generate_passwords.py streams random passwords to disk. Configure total count, password length, character set (alphanumeric / symbols / custom), cryptographic RNG vs. fast PRNG, gzip output, and chunking or single-file output. Designed for large-scale generation with low memory use.
+PassGen.py streams random passwords to disk. Configure total count, password length, character set (alphanumeric / symbols / custom), cryptographic RNG vs. fast PRNG, gzip output, and chunking or single-file output. Designed for large-scale generation with low memory use.
 
 options:
   -h, --help         show this help message and exit
